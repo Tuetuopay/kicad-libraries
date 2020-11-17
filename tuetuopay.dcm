@@ -1,0 +1,148 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP CH340C
+D USB to Serial IC
+K USB, serial
+F ${TUETUOPAY_LIB}/documentation/CH340C.pdf
+$ENDCMP
+#
+$CMP EA3058
+D 4 Channel Power Management IC
+K buck, power, regulator
+F ${TUETUOPAY_LIB}/documentation/EA3058QDR.pdf
+$ENDCMP
+#
+$CMP F1C100s
+D ARM926EJ-S SoC with 32MB of embedded SDRAM
+F ${TUETUOPAY_LIB}/documentation/Allwinner_F1C100s_Datasheet_V1.0.pdf
+$ENDCMP
+#
+$CMP F1C200s
+D ARM926EJ-S SoC with 64MB of embedded SDRAM
+F ${TUETUOPAY_LIB}/documentation/Allwinner_F2C100s_Datasheet_V1.0.pdf
+$ENDCMP
+#
+$CMP FC-B1010RGBT-HG
+D RGB LED, anode/red/green/blue
+K LED RGB diode
+F ${TUETUOPAY_LIB}/documentation/Foshan-NationStar-Optoelectronics-FC-B1010RGBT-HG.pdf
+$ENDCMP
+#
+$CMP LicheeNano
+F ${TUETUOPAY_LIB}/documentation/lichee_nano_8.16_schematic.pdf
+$ENDCMP
+#
+$CMP LicheeNano_LCD
+D Lichee Nano LCD Flat-Flex Connector
+K connector
+F ${TUETUOPAY_LIB}/documentation/lichee_nano_8.16_schematic.pdf
+$ENDCMP
+#
+$CMP LicheePiNano_LCD
+D Lichee Pi Nano LCD Flat-Flex Connector
+K connector
+F ${TUETUOPAY_LIB}/documentation/lichee_nano_8.16_schematic.pdf
+$ENDCMP
+#
+$CMP MHPA1515RGBDT
+D 1.5x1.5mm RGB LED
+K LED RGB diode
+F ${TUETUOPAY_LIB}/documentation/MEIHUA-MHPA1515RGBDT.pdf
+$ENDCMP
+#
+$CMP SC6206B
+D 250mA 5V Fixed LDO Linear Regulator, 1.8V, SOT-23
+K Fixed Voltage Regulator 250mA Positive LDO
+F ${TUETUOPAY_LIB}/documentation/SC6206B.pdf
+$ENDCMP
+#
+$CMP SiI9022A
+D 24 bit RGB to HDMI 1.4a transmitter
+F ${TUETUOPAY_LIB}/documentation/Lattice-SiI9024A.pdf
+$ENDCMP
+#
+$CMP TDA19988
+D 24 bit RGB to HDMI 1.4a transmitter
+F ${TUETUOPAY_LIB}/documentation/TDA19988.pdf
+$ENDCMP
+#
+$CMP TLV74310PDBVR
+D 1.0V, 300-mA, Low-Dropout Regulator
+F ${TUETUOPAY_LIB}/documentation/tlv743p.pdf
+$ENDCMP
+#
+$CMP TLV74311PDBVR
+D 1.1V, 300-mA, Low-Dropout Regulator
+F ${TUETUOPAY_LIB}/documentation/tlv743p.pdf
+$ENDCMP
+#
+$CMP TLV74312PDBVR
+D 1.2V, 300-mA, Low-Dropout Regulator
+F ${TUETUOPAY_LIB}/documentation/tlv743p.pdf
+$ENDCMP
+#
+$CMP TLV74315PDBVR
+D 1.5V, 300-mA, Low-Dropout Regulator
+F ${TUETUOPAY_LIB}/documentation/tlv743p.pdf
+$ENDCMP
+#
+$CMP TLV74318PDBVR
+D 1.8V, 300-mA, Low-Dropout Regulator
+F ${TUETUOPAY_LIB}/documentation/tlv743p.pdf
+$ENDCMP
+#
+$CMP TLV74325PDBVR
+D 2.5V, 300-mA, Low-Dropout Regulator
+F ${TUETUOPAY_LIB}/documentation/tlv743p.pdf
+$ENDCMP
+#
+$CMP TLV74328PDBVR
+D 2.8V, 300-mA, Low-Dropout Regulator
+F ${TUETUOPAY_LIB}/documentation/tlv743p.pdf
+$ENDCMP
+#
+$CMP TLV74330PDBVR
+D 3.0V, 300-mA, Low-Dropout Regulator
+F ${TUETUOPAY_LIB}/documentation/tlv743p.pdf
+$ENDCMP
+#
+$CMP TLV74333PDBVR
+D 3.3V, 300-mA, Low-Dropout Regulator
+F ${TUETUOPAY_LIB}/documentation/tlv743p.pdf
+$ENDCMP
+#
+$CMP TLV743xxPDBVR
+D 1.0V, 300-mA, Low-Dropout Regulator
+F ${TUETUOPAY_LIB}/documentation/tlv743p.pdf
+$ENDCMP
+#
+$CMP TS3DV20812
+D 2Gbps differential switch, 1:2 multiplexer/demlutiplexer with 3 side-band signals
+F ${TUETUOPAY_LIB}/documentation/TS3DV20812.pdf
+$ENDCMP
+#
+$CMP W25Q128JVEIQ
+D 128Mb Serial Flash Memory, Standard/Dual/Quad SPI, WSON-8
+K flash memory SPI QPI DTR
+F http://www.winbond.com/resource-files/w25q128jv_dtr%20revc%2003272018%20plus.pdf
+$ENDCMP
+#
+$CMP W25Q128JVPIQ
+D 128Mb Serial Flash Memory, Standard/Dual/Quad SPI, WSON-8
+K flash memory SPI QPI DTR
+F http://www.winbond.com/resource-files/w25q128jv_dtr%20revc%2003272018%20plus.pdf
+$ENDCMP
+#
+$CMP W25Q32JVEIQ
+D 32Mb Serial Flash Memory, Standard/Dual/Quad SPI, WSON-8
+K flash memory SPI
+F http://www.winbond.com/resource-files/w25q32jv%20revg%2003272018%20plus.pdf
+$ENDCMP
+#
+$CMP W25Q32JVPIQ
+D 32Mb Serial Flash Memory, Standard/Dual/Quad SPI, WSON-8
+K flash memory SPI
+F http://www.winbond.com/resource-files/w25q32jv%20revg%2003272018%20plus.pdf
+$ENDCMP
+#
+#End Doc Library
