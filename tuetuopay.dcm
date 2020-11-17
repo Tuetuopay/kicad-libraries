@@ -145,4 +145,39 @@ K flash memory SPI
 F http://www.winbond.com/resource-files/w25q32jv%20revg%2003272018%20plus.pdf
 $ENDCMP
 #
+$CMP AO3402
+D 30V Vds, 4A Id, N-Channel MOSFET, SOT-23
+K N-Channel MOSFET
+F http://www.aosmd.com/pdfs/datasheet/AO3402.pdf
+$ENDCMP
+#
+$CMP GL850G
+D USB 2.0 Hub controller
+F ${TUETUOPAY_LIB}/documentation/GL850G_v1.07.pdf
+$ENDCMP
+#
+$CMP K1-5202UA-03
+D 5-way directional stick switch
+F ${TUETUOPAY_LIB}/documentation/Korean-Hroparts-Elec-K1-5202UA-03.pdf
+$ENDCMP
+#
+$CMP K24C02D-O
+D Two-Wire 2Kb Serial EEPROM
+F ${TUETUOPAY_LIB}/documentation/Hua-Hong-NEC-K24C02.pdf
+$ENDCMP
+#
+$CMP OLED_0.96"_SSD1306
+D 0.96" 128x64 SPI OLED
+F ${TUETUOPAY_LIB}/documentation/Jixin-JX04010101.pdf
+$ENDCMP
+#
+$CMP TCA6424A
+F https://www.ti.com/lit/ds/symlink/tca6424a.pdf
+$ENDCMP
+#
+$CMP TPS7A7100
+D 1-A, Fast-Transient,Low-Dropout Programmable Voltage Regulator
+F https://www.ti.com/lit/ds/symlink/tps7a7100.pdf
+$ENDCMP
+#
 #End Doc Library
