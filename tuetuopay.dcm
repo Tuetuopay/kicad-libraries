@@ -1,9 +1,51 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 88E1545
+D Quad Port 10/100/1000 Mbps Energy Efficient Ethernet Transceiver
+K ethernet phy qsgmii
+F ${TUETUOPAY_LIB}/documentation/88e154x.pdf
+$ENDCMP
+#
+$CMP 89HPES4T4
+D 4-Lane 4-Port PCI Express Switch
+K pcie switch
+F ${TUETUOPAY_LIB}/documentation/IDT_98PES4T4.pdf
+$ENDCMP
+#
+$CMP AO3402
+D 30V Vds, 4A Id, N-Channel MOSFET, SOT-23
+K N-Channel MOSFET
+F http://www.aosmd.com/pdfs/datasheet/AO3402.pdf
+$ENDCMP
+#
+$CMP AP7175SP
+D 3A Ultra Low Dropout Linear Regulator With Enable
+K ldo
+F https://www.diodes.com/assets/Datasheets/AP7175.pdf
+$ENDCMP
+#
 $CMP CH340C
 D USB to Serial IC
 K USB, serial
 F ${TUETUOPAY_LIB}/documentation/CH340C.pdf
+$ENDCMP
+#
+$CMP CH340T
+D USB to serial
+K UART
+F ${TUETUOPAY_LIB}/documentation/CH340C.pdf
+$ENDCMP
+#
+$CMP DMP2040USS
+D P-Channel Enhancement Mode MOSFET
+K transistor PMOS P-MOS P-MOSFET
+F https://www.diodes.com/assets/Datasheets/DMP2040USS.pdf
+$ENDCMP
+#
+$CMP DSC1122CE1-125
+D Low-Jitter Precision LVPECL Oscrillator
+K oscillator
+F http://ww1.microchip.com/downloads/en/DeviceDoc/DSC1102%20DSC1122%20Datasheet%20MKQBPD11041002-6.pdf
 $ENDCMP
 #
 $CMP EA3058
@@ -28,6 +70,45 @@ K LED RGB diode
 F ${TUETUOPAY_LIB}/documentation/Foshan-NationStar-Optoelectronics-FC-B1010RGBT-HG.pdf
 $ENDCMP
 #
+$CMP FT230XS
+D USB to UART IC
+K usb, uart, ftdi
+F https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT230X.pdf
+$ENDCMP
+#
+$CMP GL850G
+D USB 2.0 Hub controller
+F ${TUETUOPAY_LIB}/documentation/GL850G_v1.07.pdf
+$ENDCMP
+#
+$CMP ISL8033A
+D Dual 3A Low Quiescent Current Synchronous Buck Regulator
+K regulator buck
+F https://www.renesas.com/eu/en/doc/datasheet/isl8033-a.pdf
+$ENDCMP
+#
+$CMP K1-5202UA-03
+D 5-way directional stick switch
+F ${TUETUOPAY_LIB}/documentation/Korean-Hroparts-Elec-K1-5202UA-03.pdf
+$ENDCMP
+#
+$CMP K24C02D-O
+D Two-Wire 2Kb Serial EEPROM
+F ${TUETUOPAY_LIB}/documentation/Hua-Hong-NEC-K24C02.pdf
+$ENDCMP
+#
+$CMP KUSBX-SL-CS1N14-B
+D USB TYPE C 14 PIN UPRIGHT JACK, G/F RoHS
+K usb universal serial bus type-C full-featured
+F https://www.usb.org/sites/default/files/documents/usb_type-c.zip
+$ENDCMP
+#
+$CMP LTC3633
+D Dual Channel 3A, 20V Monolithic Synchronous Step-Down Regulator
+K regulator buck dcdc
+F https://www.analog.com/media/en/technical-documentation/data-sheets/3633fd.pdf
+$ENDCMP
+#
 $CMP LicheeNano
 F ${TUETUOPAY_LIB}/documentation/lichee_nano_8.16_schematic.pdf
 $ENDCMP
@@ -50,6 +131,27 @@ K LED RGB diode
 F ${TUETUOPAY_LIB}/documentation/MEIHUA-MHPA1515RGBDT.pdf
 $ENDCMP
 #
+$CMP OLED_0.96"_SSD1306
+D 0.96" 128x64 SPI OLED
+F ${TUETUOPAY_LIB}/documentation/Jixin-JX04010101.pdf
+$ENDCMP
+#
+$CMP PI7C9X2G404SL
+D 4-Port 4-Lane PCIe Switch
+K pcie switch
+F https://www.diodes.com/assets/Datasheets/PI7C9X2G404SL.pdf
+$ENDCMP
+#
+$CMP RJSAE-5x8
+D 4 Port 2x2 stacked RJ45 jack
+F ${TUETUOPAY_LIB}/documentation/RJSAEx38x04x.pdf
+$ENDCMP
+#
+$CMP RK3128
+D Quad-core Cortex-A7MP SoC
+F ${TUETUOPAY_LIB}/documentation/RK3128 Datasheet V0.6_20140815.pdf
+$ENDCMP
+#
 $CMP SC6206B
 D 250mA 5V Fixed LDO Linear Regulator, 1.8V, SOT-23
 K Fixed Voltage Regulator 250mA Positive LDO
@@ -59,6 +161,10 @@ $ENDCMP
 $CMP SiI9022A
 D 24 bit RGB to HDMI 1.4a transmitter
 F ${TUETUOPAY_LIB}/documentation/Lattice-SiI9024A.pdf
+$ENDCMP
+#
+$CMP TCA6424A
+F https://www.ti.com/lit/ds/symlink/tca6424a.pdf
 $ENDCMP
 #
 $CMP TDA19988
@@ -116,6 +222,23 @@ D 1.0V, 300-mA, Low-Dropout Regulator
 F ${TUETUOPAY_LIB}/documentation/tlv743p.pdf
 $ENDCMP
 #
+$CMP TMS-105-57-GD
+D Generic connector, double row, 02x04, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers)
+K connector
+F ~
+$ENDCMP
+#
+$CMP TPS74401_VQFN
+D 0.8 to 3.6V adjustable, 3.0-A, Ultra-LDO with Programmable Soft-Start
+K LDO, Voltage Regulator
+F ${TUETUOPAY_LIB}/documentation/Texas-Instruments-TPS74401RGWR.pdf
+$ENDCMP
+#
+$CMP TPS7A7100
+D 1-A, Fast-Transient,Low-Dropout Programmable Voltage Regulator
+F https://www.ti.com/lit/ds/symlink/tps7a7100.pdf
+$ENDCMP
+#
 $CMP TS3DV20812
 D 2Gbps differential switch, 1:2 multiplexer/demlutiplexer with 3 side-band signals
 F ${TUETUOPAY_LIB}/documentation/TS3DV20812.pdf
@@ -143,124 +266,6 @@ $CMP W25Q32JVPIQ
 D 32Mb Serial Flash Memory, Standard/Dual/Quad SPI, WSON-8
 K flash memory SPI
 F http://www.winbond.com/resource-files/w25q32jv%20revg%2003272018%20plus.pdf
-$ENDCMP
-#
-$CMP AO3402
-D 30V Vds, 4A Id, N-Channel MOSFET, SOT-23
-K N-Channel MOSFET
-F http://www.aosmd.com/pdfs/datasheet/AO3402.pdf
-$ENDCMP
-#
-$CMP GL850G
-D USB 2.0 Hub controller
-F ${TUETUOPAY_LIB}/documentation/GL850G_v1.07.pdf
-$ENDCMP
-#
-$CMP K1-5202UA-03
-D 5-way directional stick switch
-F ${TUETUOPAY_LIB}/documentation/Korean-Hroparts-Elec-K1-5202UA-03.pdf
-$ENDCMP
-#
-$CMP K24C02D-O
-D Two-Wire 2Kb Serial EEPROM
-F ${TUETUOPAY_LIB}/documentation/Hua-Hong-NEC-K24C02.pdf
-$ENDCMP
-#
-$CMP OLED_0.96"_SSD1306
-D 0.96" 128x64 SPI OLED
-F ${TUETUOPAY_LIB}/documentation/Jixin-JX04010101.pdf
-$ENDCMP
-#
-$CMP TCA6424A
-F https://www.ti.com/lit/ds/symlink/tca6424a.pdf
-$ENDCMP
-#
-$CMP TPS7A7100
-D 1-A, Fast-Transient,Low-Dropout Programmable Voltage Regulator
-F https://www.ti.com/lit/ds/symlink/tps7a7100.pdf
-$ENDCMP
-#
-$CMP 88E1545
-D Quad Port 10/100/1000 Mbps Energy Efficient Ethernet Transceiver
-K ethernet phy qsgmii
-F ${TUETUOPAY_LIB}/documentation/88e154x.pdf
-$ENDCMP
-#
-$CMP 89HPES4T4
-D 4-Lane 4-Port PCI Express Switch
-K pcie switch
-F ${TUETUOPAY_LIB}/documentation/IDT_98PES4T4.pdf
-$ENDCMP
-#
-$CMP AP7175SP
-D 3A Ultra Low Dropout Linear Regulator With Enable
-K ldo
-F https://www.diodes.com/assets/Datasheets/AP7175.pdf
-$ENDCMP
-#
-$CMP CH340T
-D USB to serial
-K UART
-F ${TUETUOPAY_LIB}/documentation/CH340C.pdf
-$ENDCMP
-#
-$CMP DMP2040USS
-D P-Channel Enhancement Mode MOSFET
-K transistor PMOS P-MOS P-MOSFET
-F https://www.diodes.com/assets/Datasheets/DMP2040USS.pdf
-$ENDCMP
-#
-$CMP DSC1122CE1-125
-D Low-Jitter Precision LVPECL Oscrillator
-K oscillator
-F http://ww1.microchip.com/downloads/en/DeviceDoc/DSC1102%20DSC1122%20Datasheet%20MKQBPD11041002-6.pdf
-$ENDCMP
-#
-$CMP FT230XS
-D USB to UART IC
-K usb, uart, ftdi
-F https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT230X.pdf
-$ENDCMP
-#
-$CMP ISL8033A
-D Dual 3A Low Quiescent Current Synchronous Buck Regulator
-K regulator buck
-F https://www.renesas.com/eu/en/doc/datasheet/isl8033-a.pdf
-$ENDCMP
-#
-$CMP KUSBX-SL-CS1N14-B
-D USB TYPE C 14 PIN UPRIGHT JACK, G/F RoHS
-K usb universal serial bus type-C full-featured
-F https://www.usb.org/sites/default/files/documents/usb_type-c.zip
-$ENDCMP
-#
-$CMP LTC3633
-D Dual Channel 3A, 20V Monolithic Synchronous Step-Down Regulator
-K regulator buck dcdc
-F https://www.analog.com/media/en/technical-documentation/data-sheets/3633fd.pdf
-$ENDCMP
-#
-$CMP PI7C9X2G404SL
-D 4-Port 4-Lane PCIe Switch
-K pcie switch
-F https://www.diodes.com/assets/Datasheets/PI7C9X2G404SL.pdf
-$ENDCMP
-#
-$CMP RJSAE-5x8
-D 4 Port 2x2 stacked RJ45 jack
-F ${TUETUOPAY_LIB}/documentation/RJSAEx38x04x.pdf
-$ENDCMP
-#
-$CMP TMS-105-57-GD
-D Generic connector, double row, 02x04, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers)
-K connector
-F ~
-$ENDCMP
-#
-$CMP TPS74401_VQFN
-D 0.8 to 3.6V adjustable, 3.0-A, Ultra-LDO with Programmable Soft-Start
-K LDO, Voltage Regulator
-F ${TUETUOPAY_LIB}/documentation/Texas-Instruments-TPS74401RGWR.pdf
 $ENDCMP
 #
 #End Doc Library
