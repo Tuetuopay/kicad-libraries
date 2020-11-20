@@ -152,6 +152,11 @@ D Quad-core Cortex-A7MP SoC
 F ${TUETUOPAY_LIB}/documentation/RK3128 Datasheet V0.6_20140815.pdf
 $ENDCMP
 #
+$CMP RK818
+D PMIC for multi-core application processors
+F ${TUETUOPAY_LIB}/documentation/RK818_v1.0.pdf
+$ENDCMP
+#
 $CMP SC6206B
 D 250mA 5V Fixed LDO Linear Regulator, 1.8V, SOT-23
 K Fixed Voltage Regulator 250mA Positive LDO
