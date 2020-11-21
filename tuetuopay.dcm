@@ -12,6 +12,12 @@ K pcie switch
 F ${TUETUOPAY_LIB}/documentation/IDT_98PES4T4.pdf
 $ENDCMP
 #
+$CMP A3T4GF40BBF-HP
+D 4Gb (256Mx16 bit) Double Data Rate 3 Synchronous DRAM
+K DDR3 DRAM MEMORY
+F ${TUETUOPAY_LIB}/documentation/A3T4GF40BBF-HP.pdf
+$ENDCMP
+#
 $CMP AO3402
 D 30V Vds, 4A Id, N-Channel MOSFET, SOT-23
 K N-Channel MOSFET
@@ -22,6 +28,12 @@ $CMP AP7175SP
 D 3A Ultra Low Dropout Linear Regulator With Enable
 K ldo
 F https://www.diodes.com/assets/Datasheets/AP7175.pdf
+$ENDCMP
+#
+$CMP AS4C256M16D3
+D 4Gb (256Mx16 bit) Double Data Rate 3 Synchronous DRAM
+K DDR3 DRAM MEMORY
+F https://www.alliancememory.com/wp-content/uploads/pdf/ddr3/4GB-AS4C256M16D3.pdf
 $ENDCMP
 #
 $CMP CH340C
@@ -95,6 +107,12 @@ $ENDCMP
 $CMP K24C02D-O
 D Two-Wire 2Kb Serial EEPROM
 F ${TUETUOPAY_LIB}/documentation/Hua-Hong-NEC-K24C02.pdf
+$ENDCMP
+#
+$CMP K4B4G1646E-BYMA
+D 4Gb (256Mx16 bit) Double Data Rate 3 Synchronous DRAM
+K DDR3 DRAM MEMORY
+F ${TUETUOPAY_LIB}/documentation/K4B4G1646E-BYMA.pdf
 $ENDCMP
 #
 $CMP KUSBX-SL-CS1N14-B
