@@ -36,6 +36,12 @@ K DDR3 DRAM MEMORY
 F https://www.alliancememory.com/wp-content/uploads/pdf/ddr3/4GB-AS4C256M16D3.pdf
 $ENDCMP
 #
+$CMP BAT54C_Small
+D dual schottky barrier diode, common cathode
+K schottky diode common cathode
+F http://www.diodes.com/_files/datasheets/ds11005.pdf
+$ENDCMP
+#
 $CMP CH340C
 D USB to Serial IC
 K USB, serial
@@ -265,6 +271,26 @@ $ENDCMP
 $CMP TS3DV20812
 D 2Gbps differential switch, 1:2 multiplexer/demlutiplexer with 3 side-band signals
 F ${TUETUOPAY_LIB}/documentation/TS3DV20812.pdf
+$ENDCMP
+#
+$CMP VCC_CPU
+D Power symbol creates a global label with name "VCC_CPU"
+K power-flag
+$ENDCMP
+#
+$CMP VCC_DDR
+D Power symbol creates a global label with name "VCC_DDR"
+K power-flag
+$ENDCMP
+#
+$CMP VCC_IO
+D Power symbol creates a global label with name "VCC_IO"
+K power-flag
+$ENDCMP
+#
+$CMP VCC_SOC
+D Power symbol creates a global label with name "VCC_SOC"
+K power-flag
 $ENDCMP
 #
 $CMP W25Q128JVEIQ
