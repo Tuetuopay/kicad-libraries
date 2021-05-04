@@ -318,6 +318,16 @@ D Power symbol creates a global label with name "VCC_SOC"
 K power-flag
 $ENDCMP
 #
+$CMP VREF_DDR
+D Power symbol creates a global label with name "VREF_DDR"
+K power-flag
+$ENDCMP
+#
+$CMP V_VTT
+D Power symbol creates a global label with name "V_VTT"
+K power-flag
+$ENDCMP
+#
 $CMP W25Q128JVEIQ
 D 128Mb Serial Flash Memory, Standard/Dual/Quad SPI, WSON-8
 K flash memory SPI QPI DTR
