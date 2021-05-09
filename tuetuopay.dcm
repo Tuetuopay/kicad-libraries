@@ -24,6 +24,11 @@ K N-Channel MOSFET
 F http://www.aosmd.com/pdfs/datasheet/AO3402.pdf
 $ENDCMP
 #
+$CMP AP6255
+D WiFi 11ac + Bluetooth 4.1 Module
+F ${TUETUOPAY_LIB}/documentation/AP6255-AMPAK.pdf
+$ENDCMP
+#
 $CMP AP7175SP
 D 3A Ultra Low Dropout Linear Regulator With Enable
 K ldo
