@@ -206,6 +206,11 @@ D PMIC for multi-core application processors
 F ${TUETUOPAY_LIB}/documentation/RK818_v1.0.pdf
 $ENDCMP
 #
+$CMP RT9193-33
+D 300mA, Ultra-Low Noise, Ultra-Fast CMOS LDO Regulator
+F ${TUETUOPAY_LIB}/documentation/RT9193.pdf
+$ENDCMP
+#
 $CMP SC6206B
 D 250mA 5V Fixed LDO Linear Regulator, 1.8V, SOT-23
 K Fixed Voltage Regulator 250mA Positive LDO
