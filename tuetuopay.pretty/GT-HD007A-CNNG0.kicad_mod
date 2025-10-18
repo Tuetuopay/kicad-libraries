@@ -376,4 +376,15 @@
 		(uuid "aa46123d-9018-41f4-af08-5caf71d73843")
 	)
 	(embedded_fonts no)
+	(model "${TUETUOPAY_LIB}/3d/GT-HD007A-CNNG0.wrl"
+		(offset
+			(xyz 0 -15.04 9)
+		)
+		(scale
+			(xyz 0.394 0.394 0.394)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
 )
